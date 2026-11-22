@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Precision Scanner — 3D scans scaled by a caliper</title>
+<meta name="description" content="3D scans of small objects with a LiDAR iPhone, scaled to a length you measured with a caliper.">
+<style>
+:root{--bg:#ffffff;--fg:#111418;--muted:#5b6470;--card:#f3f5f8;--line:#e2e6ec;--accent:#0a6fd6}
+@media (prefers-color-scheme:dark){:root{--bg:#0b0d10;--fg:#eef1f5;--muted:#9aa3ae;--card:#15191e;--line:#262c33;--accent:#5cc4ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:720px;margin:0 auto;padding:28px 16px 64px}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:14px}
+.brand{font-weight:700;letter-spacing:.02em;color:var(--fg)}
+nav{display:flex;gap:16px;flex-wrap:wrap;font-size:15px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+h1{font-size:32px;line-height:1.2;margin:32px 0 10px;letter-spacing:-.01em}
+.lead{font-size:19px;color:var(--muted);margin:0 0 8px}
+h2{font-size:21px;margin:34px 0 8px}
+ul,ol{padding-left:22px}
+li{margin:6px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin:22px 0}
+.updated{color:var(--muted);font-size:15px}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<header><a class="brand" href="index.html">Precision Scanner</a><nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="tr.html">Türkçe</a></nav></header>
+<h1>3D scans scaled by a caliper</h1>
+<p class="lead">Precision Scanner makes 3D scans of small objects and rooms with a LiDAR-equipped iPhone Pro, then scales the model to a real length you measured with a caliper. Free, with no account and no data collected.</p>
+<h2>Scanning</h2><ul><li>Walk around the object; the ring on screen shows which angles have been captured.</li><li>After the first orbit, turn the object over and capture a second orbit so the underside is included.</li><li>Or keep the phone still and turn the object on a turntable; blurred shots are rejected.</li><li>The model is built on the phone, with no internet connection.</li></ul>
+<h2>Caliper calibration</h2><ul><li>Pick two opposite faces on the model and enter your caliper reading; the model is scaled to it.</li><li>The angle between the faces is shown, and step heights can be measured too.</li><li>Check a second dimension against your calipers and see the difference in millimetres.</li></ul>
+<h2>Export</h2><ul><li>Textured OBJ, STL and PLY in millimetres, plus USDZ.</li><li>Export the source photos as a ZIP to reprocess them in desktop photogrammetry software.</li><li>A project report that summarises measurements and files.</li></ul>
+<h2>First print</h2><ul><li>Share printable caliper, stepped block and ring files from the app and print them.</li></ul>
+<h2>Room scanning</h2><ul><li>Walls, doors, windows and furniture with RoomPlan.</li></ul>
+<h2>Requirements</h2><ul><li>Object and room scanning need a LiDAR-equipped iPhone Pro and iOS 18 or later.</li><li>On iPhones with Face ID but no LiDAR, only the front-camera TrueDepth scan is available.</li></ul>
+<div class="card"><strong>Good to know.</strong> The model built on the phone is a quick preview. Its scale comes from the caliper value you enter; without calibration, dimensions can be off by several percent. Shiny, metallic and transparent objects scan poorly.</div>
+<p><a href="support.html">Support and scanning tips</a> · <a href="privacy.html">Privacy policy</a></p>
+<footer>Free iPhone app. No account, no ads, no tracking. This site has no cookies or analytics.</footer>
+</main>
+</body>
+</html>

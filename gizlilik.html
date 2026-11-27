@@ -30,16 +30,17 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);font-si
 <main>
 <header><a class="brand" href="tr.html">Precision Scanner</a><nav><a href="destek.html">Destek</a><a href="gizlilik.html">Gizlilik</a><a href="index.html">English</a></nav></header>
 <h1>Gizlilik Politikası</h1>
-<p class="updated">Son güncelleme: 20 Kasım 2026</p>
+<p class="updated">Son güncelleme: 28 Kasım 2026</p>
 <p>Precision Scanner, nesneleri ve odaları iPhone ya da iPad ile 3B taramak için kamerayı kullanır. Bu metin, uygulamanın hangi verileri işlediğini ve bunların nerede kaldığını açıklar.</p>
 <h2>Toplanan veriler</h2>
 <p>Uygulama geliştiriciye ya da başka birine hiçbir veri göndermez. Hesap, analitik, reklam ya da takip aracı yoktur ve uygulamanın kendi kodu internet bağlantısı kurmaz.</p>
 <h2>Cihazınızda saklananlar</h2>
-<ul><li>Tarama sırasında çekilen fotoğraflar ve cihaz destekliyorsa derinlik (LiDAR ya da TrueDepth) verisi</li><li>Bu verilerden üretilen 3B modeller ve nokta bulutları</li><li>Girdiğiniz ölçümler ve kalibrasyon bilgileri</li></ul>
+<ul><li>Tarama sırasında çekilen fotoğraflar ve LiDAR&#x27;lı cihazlarda bunlarla birlikte kaydedilen LiDAR derinlik verisi</li><li>Nesnelerin ve odaların 3B modelleri ile TrueDepth taramalarından çıkan nokta bulutları</li><li>Girdiğiniz ölçümler ve kalibrasyon bilgileri</li></ul>
 <p>Bunlar yalnızca uygulamanın cihazınızdaki klasöründe saklanır. iCloud Yedekleme ya da bilgisayara yedekleme açıksa, Apple&#x27;ın yedekleme sistemi bu klasörü de yedekleyebilir; geliştirici bu yedeklere erişemez.</p>
-<h2>Kamera ve TrueDepth</h2>
-<p>Kamera yalnızca siz bir tarama başlattığınızda kullanılır. Ön kameradaki TrueDepth taraması, karşısındaki nesnenin (kameraya yüzünüzü tutarsanız yüzünüzün) derinlik görüntülerini kullanarak cihazda bir nokta bulutu oluşturur. Uygulama yüz tanıma yapmaz; bu derinlik verisini reklam, pazarlama ya da başka bir amaçla kullanmaz ve kimseyle paylaşmaz. Veri, siz silene kadar yalnızca cihazınızda kalır.</p>
-<p>Kamera iznini istediğiniz zaman Ayarlar&#x27;dan kapatabilirsiniz.</p>
+<h2 id="yuz-verisi">Kamera, TrueDepth ve yüz verisi</h2>
+<p>Kamera yalnızca siz bir tarama başlattığınızda kullanılır. Kamera iznini istediğiniz zaman Ayarlar&#x27;dan kapatabilirsiniz.</p>
+<p>Quick Scan&#x27;deki TrueDepth taraması, ön kameradaki TrueDepth sensörünü derinlik sensörü olarak kullanır. Uygulama her TrueDepth taramasından önce taramanın neyi topladığını gösterir; sensör ancak siz &quot;Kabul Ediyorum, Taramayı Başlat&quot;a dokunduktan sonra kullanılır.</p>
+<ul><li><strong>Toplanan veri:</strong> ön kameranın karşısındaki her şeyin derinlik ölçümleri. Sensörü bir yüze tutarsanız tarama o yüzün 3B şeklini içerir. Uygulama yüz takibi, yüz ağı, yüz hatları ya da mimik verisi kullanmaz, yüzleri tanımaz ya da kimliklendirmez ve bu modda kamera görüntüsü kaydetmez.</li><li><strong>Kullanım:</strong> her derinlik karesi cihazda 3B noktalara çevrilir ve ardından silinir. Yalnızca ortaya çıkan nokta bulutu (renksiz nokta konumları) ve ölçülen boyutu, taramayı ve ölçülerini size göstermek için saklanır. Yüz verisi reklam, pazarlama, kimlik doğrulama, profil çıkarma ya da başka hiçbir amaçla kullanılmaz.</li><li><strong>Saklama yeri:</strong> yukarıda anlatıldığı gibi yalnızca uygulamanın cihazınızdaki klasörü. Uygulama bu veriyi cihaz dışına göndermez.</li><li><strong>Paylaşım:</strong> uygulama yüz verisini geliştiriciyle ya da reklam ve analitik sağlayıcıları dahil hiçbir üçüncü tarafla paylaşmaz. Yukarıda anlatılan kendi cihaz yedekleriniz dışında tarama cihazdan yalnızca siz kendiniz dışa aktarırsanız çıkar (bkz. Paylaşım).</li><li><strong>Saklama süresi ve silme:</strong> nokta bulutu, siz taramayı Kütüphane&#x27;den silene ya da uygulamayı silene kadar cihazınızda kalır.</li></ul>
 <h2>Paylaşım</h2>
 <p>Bir modeli, fotoğrafları ya da raporu dışa aktardığınızda dosya, paylaşım menüsünde sizin seçtiğiniz uygulamaya veya kişiye gider. Bu gönderimi siz başlatırsınız; uygulama kendiliğinden hiçbir şey göndermez.</p>
 <h2>Silme</h2>
